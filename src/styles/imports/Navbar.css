@@ -1,0 +1,25 @@
+.Navbar{
+    background-color: #1889ff;
+    width: 90vw;
+    height: 4.3vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ItemContainer{
+    /* background-color: yellow; */
+    height: 3vw;
+    cursor: pointer;
+}
+
+.footer{
+    display:flex;
+    align-items:center; 
+    justify-content:center;
+    bottom:0;
+    position:fixed;
+    margin-left:5%;
+}

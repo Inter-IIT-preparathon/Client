@@ -1,0 +1,66 @@
+.modal-wrapper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(189, 189, 189, 0.9);
+}
+
+.modal-container{
+    position: fixed;
+    max-width: auto;
+    max-height: 70vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.6vw;
+    border-radius: 2rem;
+    overflow-y: auto;
+}
+
+.participantsContainer{
+    height: 5vw;
+    width: 40vw;
+    border-radius: 1vw;
+    margin-bottom: 1vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #b9dbff;
+}
+
+.profilePicContainer{
+    border-radius: 50%;
+    width: 4vw;
+}
+
+.text{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+
+.fontSize{
+    font-size: 1vw;
+}
+
+.fontSize2{
+    font-size: 0.8vw;
+}
+
+.fontSize3{
+    font-size: 1vw;
+}
+
+.participant{
+    margin:0;
+    margin-bottom: 1vw;
+    font-size:1.5vw;
+    font-family:cursive;
+}

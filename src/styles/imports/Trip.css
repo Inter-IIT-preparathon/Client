@@ -1,0 +1,262 @@
+.mainTripContainer{
+    width: 80vw;
+    height: 10vw;
+    background-color: #d8ebff;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.AllTripsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TripInfoContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainFilterContainer{
+    margin-top: 0.1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 12vw;
+    width: 98vw;
+    overflow-x: hidden;
+    background-color: #094c92;
+    border-radius: 40px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 10px;
+    background-color: #8ab6e4;
+}
+
+.tripInputContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1vw;
+}
+
+.leftTripInput{
+    border-bottom-left-radius: 13px;
+    border-top-left-radius: 13px;
+}
+
+.rightTripInputContainer{
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+.tripInput{
+    display: flex;
+    height: 3vw;
+    width: 10vw;
+    margin: 1vw;
+    background-color: #d9d9dd;
+    font-size: 1.1vw;
+    font-family: cursive;
+}
+
+.tripInput::placeholder {
+    text-align: left;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.createbutton{
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.4vw;
+    background-color: #8ab6e4;
+    width: 5vw;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+.mainCommunityTripContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainTripPageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.mainProfilePicContainer{
+    background-color: #d8ebff;
+    width: 80vw;
+    height: 35vw;
+    border-radius: 50px;
+    margin-bottom: 7vh;
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.BottonNavbar{
+    bottom: 0%;
+    position: fixed;
+}
+
+.TopContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    width: 75vw;
+    background-color: #b9dbff;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 3vh;
+}
+
+.imageBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rightContainer{
+    height: auto;
+    width: 75vw;
+    background-color: #b9dbff;
+    margin: auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.descriptionContainer{
+    height: 16vw;
+    width: 35vw;
+    background-color: #dbd7d7;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonText{
+    font-size: 1vw;
+    font-family: sans-serif;
+}
+
+.headingStyle{
+    font-size: 1.5vw;
+    font-family: cursive;
+}
+
+.smallrightContainer{
+    margin-left: 2vw;
+}
+
+.profileImg{
+    border-radius: 50%;
+    height: 8vw;
+}
+
+.mediumSizeTag{
+    font-size:1.5vw;
+    font-family: cursive;
+}
+
+.smallTag{
+    font-size:1vw;
+    font-family:cursive;
+}
+
+.seeParticipantsBtn{
+    height: auto;
+    width: auto;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    border-radius: 1vw;
+    border: 0;
+    background-color: #93c7fd;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+}
+
+@media screen and (max-width: 950px) {
+    .rightContainer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2vw;
+    }
+
+    .profileImg{
+        height: 12vw;
+        margin: 2vw;
+    }
+    
+    .seeParticipantsBtn{
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+
+    .mediumSizeTag{
+        font-size:2.3vw;
+        font-family: cursive;
+    }
+
+    .smallTag{
+        font-size:1.9vw;
+        font-family:cursive;
+    }
+
+    .descriptionContainer{
+        height: 16vw;
+        width: 60vw;
+        margin-bottom: 2vw;
+    }
+
+    .mainProfilePicContainer{
+        width: 80vw;
+        height: auto;
+        padding-bottom: 2vw;
+    }
+
+    
+}
+
+@media screen and (max-width: 630px) {
+    .createbutton{
+        margin-top: 1.5vw;
+    }
+}
